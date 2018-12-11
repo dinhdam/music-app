@@ -1,0 +1,10 @@
+$(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop()>50){
+            $('.navbar.fixed-top').removeClass('scroll-nav');
+        }
+        else{
+            $('.navbar.fixed-top').addClass('scroll-nav');
+        }
+    });
+});

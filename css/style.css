@@ -1,0 +1,75 @@
+html,body{
+    height: 100%;
+}
+
+
+.banner{
+    height: 100%;
+    background-image: url('../assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.scroll-nav.bg-dark{
+    background-color: rgba(0,0,0,.4) !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding: .75em 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+.scroll-nav .navbar-nav .nav-link{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ff5518;
+}
+
+.navbar-brand{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0;
+    padding: 0 1em;
+    background-color: rgba(255,255,255,.3);
+    justify-content: center;
+}
+.navbar-brand span{
+    width: 100%;
+    text-transform: uppercase;
+    /* padding: 0.6em auto; */
+    text-align: center;
+}
+.navbar-brand span:first-child{
+    font-size: 1.5em;
+    color: #ff5518;
+    font-weight: bold;
+}
+
+.font-orange{
+    color: #ff5518 !important;
+}
+.font-grey{
+    color: #ddd !important;
+}
+
+.card{
+    border: 0;
+    border-radius: 0;
+}
+.card-body svg{
+    width: 40px;
+    height: 40px;
+}
+.card-body svg path{
+    fill: #ff5518;
+}
